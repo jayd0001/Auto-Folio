@@ -1,4 +1,46 @@
-export const manufacturers = ["Acura", "Alfa Romeo", "Aston Martin", "Audi", "Bentley", "BMW", "Buick", "Cadillac", "Chevrolet", "Chrysler", "Citroen", "Dodge", "Ferrari", "Fiat", "Ford", "GMC", "Honda", "Hyundai", "Infiniti", "Jaguar", "Jeep", "Kia", "Lamborghini", "Land Rover", "Lexus", "Lincoln", "Maserati", "Mazda", "McLaren", "Mercedes-Benz", "MINI", "Mitsubishi", "Nissan", "Porsche", "Ram", "Rolls-Royce", "Subaru", "Tesla", "Toyota", "Volkswagen", "Volvo"]
+export const manufacturers = [
+  "Acura",
+  "Alfa Romeo",
+  "Aston Martin",
+  "Audi",
+  "Bentley",
+  "BMW",
+  "Buick",
+  "Cadillac",
+  "Chevrolet",
+  "Chrysler",
+  "Citroen",
+  "Dodge",
+  "Ferrari",
+  "Fiat",
+  "Ford",
+  "GMC",
+  "Honda",
+  "Hyundai",
+  "Infiniti",
+  "Jaguar",
+  "Jeep",
+  "Kia",
+  "Lamborghini",
+  "Land Rover",
+  "Lexus",
+  "Lincoln",
+  "Maserati",
+  "Mazda",
+  "McLaren",
+  "Mercedes-Benz",
+  "MINI",
+  "Mitsubishi",
+  "Nissan",
+  "Porsche",
+  "Ram",
+  "Rolls-Royce",
+  "Subaru",
+  "Tesla",
+  "Toyota",
+  "Volkswagen",
+  "Volvo",
+];
 
 export const yearsOfProduction = [
   { title: "Year", value: "" },
@@ -11,7 +53,7 @@ export const yearsOfProduction = [
   { title: "2021", value: "2021" },
   { title: "2022", value: "2022" },
   { title: "2023", value: "2023" },
-]
+];
 
 export const fuels = [
   {
@@ -26,7 +68,7 @@ export const fuels = [
     title: "Electricity",
     value: "Electricity",
   },
-]
+];
 
 export const footerLinks = [
   {
@@ -56,4 +98,4 @@ export const footerLinks = [
       { title: "Facebook", url: "/" },
     ],
   },
-]
+];
