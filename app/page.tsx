@@ -1,3 +1,4 @@
+"usr client";
 import { CustomFilter, Hero, SearchBar } from "@/components";
 import CarCard from "@/components/CarCard";
 import { fetchCars } from "@/utils";
