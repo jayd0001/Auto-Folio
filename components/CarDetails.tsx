@@ -14,6 +14,7 @@ interface carDetailsProps {
 }
 
 const CarDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
+  const { make, model } = car;
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>
@@ -102,7 +103,7 @@ const CarDetails = ({ isOpen, closeModal, car }: carDetailsProps) => {
 
                   <div className="flex-1 flex-col gap-">
                     <h2 className="font-semibold text-xl capitalize">
-                      {car.make} {car.model}
+                      {make} {model}
                     </h2>
                     <div className="mt-3 flex flex-wrap gap-4">
                       {Object.entries(car).map(([key, value]) => (
