@@ -34,6 +34,7 @@ const SearchBar = () => {
     );
   };
 
+  // update the URL search parameters and navigate to the new URL
   const updateSearchParams = (model: string, manufacturer: string) => {
     const searchParams = new URLSearchParams(window.location.search);
 
