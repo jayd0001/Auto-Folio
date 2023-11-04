@@ -42,7 +42,10 @@ export const generateCarImageUrl = (car: carProps, angle?: string) => {
   const url = new URL("https://cdn.imagin.studio/getimage?model=co");
   const { make, model, year } = car;
 
-  url.searchParams.append("customer", process.env.NEXT_PUBLIC_CAR_IMAGES_KEY|| "");
+  url.searchParams.append(
+    "customer",
+    process.env.NEXT_PUBLIC_CAR_IMAGES_KEY || "",
+  );
 
   url.searchParams.append("make", make);
   url.searchParams.append("modelFamily", model.split(" ")[0]);
