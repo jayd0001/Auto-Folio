@@ -9,7 +9,7 @@
 # Rapid API for cars Details
 https://rapidapi.com/apininjas/api/cars-by-api-ninjas/
 
-#Imagin studio Car images API
+# Imagin studio Car images API
 https://www.imagin.studio/solutions/api
 
 
