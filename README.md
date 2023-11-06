@@ -1,7 +1,7 @@
 ## Auto Folio - Unlock Freedom with  Car Rental Project: Your Key to Convenient and Affordable Mobility
 
 # Tools Used
-- Nextjs13
+- Nextjs14
 - TypeScript 
 - Tailwind CSS
 - HeadlessUI
